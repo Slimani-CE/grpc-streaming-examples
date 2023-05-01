@@ -98,8 +98,8 @@ public class BankGrpcService extends BankServiceGrpc.BankServiceImplBase{
                     public void run() {
                         System.out.println("Streaming to client...");
                         Bank.ConvertCurrencyResponse response = Bank.ConvertCurrencyResponse.newBuilder()
-                                .setCurrencyFrom("blabla")
-                                .setCurrencyTo("blabla")
+                                .setCurrencyFrom("server")
+                                .setCurrencyTo("client")
                                 .setAmount(counter++)
                                 .build();
                         responseObserver.onNext(response);

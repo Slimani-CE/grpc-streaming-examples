@@ -13,16 +13,16 @@ Here are some screenshots of test of streaming types:
 
 ### 1 - Unary Streaming
 This screenshot shows a simple unary stream example, where the client sends a request to the server and receives a single response.
-![Unary Streaming](https://blog.consdata.tech/assets/img/posts/2019-03-22-java-darmowa-czy-nie/java-darmowa.png)
+![Unary Streaming](assets/unary_streaming.png)
 
 ### 2 - Server Streaming
 This screenshot shows an example of server-side streaming, where the server sends a stream of responses to the client in response to a single request.
-![Unary Streaming](https://blog.consdata.tech/assets/img/posts/2019-03-22-java-darmowa-czy-nie/java-darmowa.png)
+![Unary Streaming](assets/server_streaming.png)
 
 ### 3 - Client Streaming
 This screenshot shows an example of client-side streaming, where the client sends a stream of requests to the server and receives a single response.
-![Unary Streaming](https://blog.consdata.tech/assets/img/posts/2019-03-22-java-darmowa-czy-nie/java-darmowa.png)
+![Unary Streaming](assets/client_streaming.png)
 
 ### 4 - Bi-directional Streaming
 This screenshot shows an example of bi-directional streaming, where both the client and server can send and receive streams of messages.
-![Unary Streaming](https://blog.consdata.tech/assets/img/posts/2019-03-22-java-darmowa-czy-nie/java-darmowa.png)
+![Unary Streaming](assets/Bi-directional_streaming.png)
